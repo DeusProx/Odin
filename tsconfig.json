@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "declaration": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "strictNullChecks": true,
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "noFallthroughCasesInSwitch": true,
+        "removeComments": true,
+        "noLib": false,
+        "target": "es6",
+        "sourceMap": false
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

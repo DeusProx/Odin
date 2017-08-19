@@ -1,0 +1,42 @@
+{
+    "name": "ratatoskr",
+    "version": "0.0.1",
+    "description": "Experimental Framework for HTTP- & Websocket Backends in Typescript with a REST-like API style.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./dist/example/testapp"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DeusProx/wotan.git"
+    },
+    "keywords": [
+        "HTTP",
+        "Websocket",
+        "REST",
+        "Server",
+        "Framework",
+        "Typescript",
+        "Ratatosk",
+        "Ratatoskr",
+        "Rataöskr",
+        "Ratatösk",
+        "Ratatwisker"
+    ],
+    "author": "Gordon Lawrenz",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/DeusProx/wotan/issues"
+    },
+    "homepage": "https://github.com/DeusProx/wotan#readme",
+    "dependencies": {
+        "reflect-metadata": "^0.1.10",
+        "ts-transformer-keys": "^0.3.0",
+        "typescript": "^2.4.2"
+    },
+    "devDependencies": {
+        "@types/node": "^8.0.23",
+        "@types/reflect-metadata": "0.0.5",
+        "@types/websocket": "0.0.34"
+    }
+}
